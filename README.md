@@ -118,7 +118,7 @@ Tests use in-memory SQLite databases, so no file cleanup is needed.
 ## Project Structure
 
 ```
-zovyrn/
+zorvyn/
 ├── src/
 │   ├── config/
 │   │   └── database.js          # SQLite connection & schema init
