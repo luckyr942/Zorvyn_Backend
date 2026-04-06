@@ -19,6 +19,9 @@ initializeDatabase();
 
 const app = express();
 
+// Trust the reverse proxy (specifically Render/Heroku) for rate limiting to work correctly
+app.set('trust proxy', 1);
+
 // ─── Core Middleware ────────────────────────────────────────────────────────
 
 app.use(cors());
