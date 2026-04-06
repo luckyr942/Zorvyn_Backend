@@ -71,8 +71,8 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: `http://localhost:${process.env.PORT || 3000}`,
-        description: 'Development server',
+        url: '/',
+        description: 'Current Environment',
       },
     ],
     components: {
