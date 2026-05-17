@@ -1,9 +1,4 @@
-/* ╔══════════════════════════════════════════════════════════════════╗
-   ║  Zovyrn Finance Dashboard — Stylesheet                         ║
-   ║  Design: Dark premium glassmorphism with indigo/violet accent   ║
-   ╚══════════════════════════════════════════════════════════════════╝ */
 
-/* ─── Reset & Base ───────────────────────────────────────────────── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
